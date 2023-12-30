@@ -8,7 +8,7 @@ class BasePage():
         self.browser.implicitly_wait(timeout)
 
     def open(self):
-	    self.browser.get(self.url)
+        self.browser.get(self.url)
 
     def is_element_present(self, how, what):
         try:
